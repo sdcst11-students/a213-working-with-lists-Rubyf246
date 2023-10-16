@@ -24,4 +24,8 @@ The animal at that index is Dog
 
 
 
-animals =
+animals = ["Cat", "Fish", "Dog", "Bear", "Turtle"]
+animals.sort() 
+print (animals)
+num= int(input("Give me a number between  to five"))
+print(animals[num -1])
