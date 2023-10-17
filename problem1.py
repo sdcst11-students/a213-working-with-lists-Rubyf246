@@ -21,7 +21,7 @@ Enter the replacement:Dan
 """
 people = ['kimmy', 'ruby', "swagrid", "chelsea", "sarah"]
 replace= input("Give my the name you want to replace:")
-Add= input(f"Who do you want to replace {replace}?")
+Add= input(f"Who do you want to replace with {replace}?")
 Index= people.index(replace)
 people.remove (replace)
 people.insert(Index, Add)

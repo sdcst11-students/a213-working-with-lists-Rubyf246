@@ -23,5 +23,12 @@ Enter an integer:-1
 
 The largest number you entered is 92
 """
-
-
+list=[]
+for i in range(1,11):
+    a= int(input(f"Give me number {i}:"))
+    if a > 0: 
+        list.append(a)
+    else:
+        break 
+list.sort()
+print (f"the largest number is {list[-1]}")
